@@ -1,6 +1,6 @@
 // Size of array to use in all sorting functions
 #ifndef SORT_ARRAY_SIZE
-#define SORT_ARRAY_SIZE 100000
+#define SORT_ARRAY_SIZE 1000
 #endif
 
 // Number of runs to average results over for sorts
