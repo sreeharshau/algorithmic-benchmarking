@@ -1,6 +1,7 @@
 #include "sort_common.h"
 #include "bubble_sort.h"
 #include "insertion_sort.h"
+#include "selection_sort.h"
 
 #include <iostream>
 #include <fstream>
@@ -87,10 +88,14 @@ int main(int argc, std::string argv[]){
     // Create the base array for sorting
     setup_sort_base();
 
+    
+
     // Call relevant sort drivers
     // sort_driver_common("bubble_sort.csv", bubble_sort);
 
-    sort_driver_common("insertion_sort.csv", insertion_sort);
+    // sort_driver_common("insertion_sort.csv", insertion_sort);
+
+    sort_driver_common("selection_sort.csv", selection_sort);
 
     // Cleanup memory allocated for base array
     cleanup_sort_base();

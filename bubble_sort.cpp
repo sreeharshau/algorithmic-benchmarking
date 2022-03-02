@@ -1,8 +1,3 @@
-#include <chrono>
-#include <vector>
-#include <iostream>
-#include <fstream>
-
 #include "bubble_sort.h"
 
 uint32_t bubble_sort(uint32_t *sort_array){
